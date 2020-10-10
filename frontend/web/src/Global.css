@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url('./assets/saturnWallpeaper.jpg');
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.home {
+  text-decoration: none;
+  color: white;
+  font: 700 2.2rem 'JetBrains Mono';
+  transition: 0.5s;
+}
+
+.home:hover {
+  filter: brightness(90%);
+}
+
+.container {
+  margin-top: 50px;
+}
+
+#root {
+  height: 100vh;
+}
+
+@media (min-width: 700px) {
+  :root {
+    font-size: 62.5%;
+  }
+}
