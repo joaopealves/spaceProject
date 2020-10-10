@@ -1,16 +1,11 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import Routes from './routes';
 
 import './Global.css';
 
 function App() {
-  return (
-    <div className="container">
-      <Link className="home" to="/home">
-        Start
-      </Link>
-    </div>
-  );
+  return <Routes />;
 }
 
 export default App;

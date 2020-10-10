@@ -1,0 +1,14 @@
+.home {
+  text-decoration: none;
+  color: white;
+  font: 700 2.2rem 'JetBrains Mono';
+  transition: 0.5s;
+}
+
+.home:hover {
+  filter: brightness(90%);
+}
+
+.container {
+  margin-top: 50px;
+}
