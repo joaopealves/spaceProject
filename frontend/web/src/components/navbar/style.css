@@ -8,8 +8,8 @@
 }
 
 .buttonContainer {
-  height: 51px;
-  width: 140px;
+  height: 40px;
+  width: 120px;
   background-color: rgba(0, 0, 0, 0);
   border: 2px solid #e55be8;
   border-radius: 4px;
@@ -19,6 +19,7 @@
   cursor: pointer;
   transition: 0.5s;
   margin-left: 20px;
+  text-decoration: none;
 }
 
 .buttonText {
@@ -47,16 +48,17 @@
 
 .getStartedContainer button:hover {
   filter: brightness(80%);
-}
-
-.getStartedContainer p {
-  font: 700 28px 'JetBrains Mono Extra Bold';
-  color: white;
-  cursor: pointer;
+  background-color: #0a0a0a21;
 }
 
 .getStartedContainer button:focus {
   border-radius: 35px;
+}
+.getStartedContainer p {
+  font: 700 28px 'JetBrains Mono Extra Bold';
+  color: white;
+  cursor: pointer;
+  text-align: center;
 }
 
 .getStartedContainer button {
@@ -84,7 +86,6 @@
     margin-top: 20px;
   }
   .getStartedContainer {
-    margin-left: 50px;
     margin-top: 236px;
     display: flex;
     flex-direction: column;
