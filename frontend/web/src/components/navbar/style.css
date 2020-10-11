@@ -3,6 +3,8 @@
   width: 100vw;
   height: 51px;
   margin-top: 20px;
+  flex-direction: row;
+  display: flex;
 }
 
 .buttonContainer {
@@ -24,6 +26,58 @@
   font: 700 20px 'JetBrains Mono Extra Bold';
 }
 
+#homeButton {
+  margin-left: 177px;
+}
+
 .buttonContainer:hover {
   background-color: #e65be860;
+}
+
+.getStartedContainer {
+  margin-left: 177px;
+  margin-top: 236px;
+  width: 297px;
+  height: 233px;
+  display: flex;
+  flex-direction: column;
+}
+
+.getStartedContainer p {
+  font: 700 28px 'JetBrains Mono Extra Bold';
+  color: white;
+}
+.getStartedContainer button {
+  font: 700 28px 'JetBrains Mono Extra Bold';
+  color: white;
+  width: 297px;
+  height: 81px;
+  border-radius: 35px;
+  background-color: #e65be800;
+  border: 4px solid white;
+  margin-top: 10px;
+  font: 700 16px 'JetBrains Mono Extra Bold';
+}
+
+@media (max-width: 700px) {
+  :root {
+    font-size: 62.5%;
+  }
+  .nav {
+    flex-direction: column;
+    align-items: center;
+  }
+  .buttonContainer {
+    margin-top: 20px;
+  }
+
+  #homeButton {
+    margin-left: 20px;
+  }
+}
+
+@media (max-width: 800px) {
+  #homeButton {
+    margin-left: 20px;
+  }
 }
