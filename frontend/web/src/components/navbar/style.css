@@ -1,0 +1,29 @@
+.nav {
+  background-color: rgba(0, 0, 0, 0);
+  width: 100vw;
+  height: 51px;
+  margin-top: 20px;
+}
+
+.buttonContainer {
+  height: 51px;
+  width: 140px;
+  background-color: rgba(0, 0, 0, 0);
+  border: 2px solid #e55be8;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: 0.5s;
+  margin-left: 20px;
+}
+
+.buttonText {
+  color: white;
+  font: 700 20px 'JetBrains Mono Extra Bold';
+}
+
+.buttonContainer:hover {
+  background-color: #e65be860;
+}
