@@ -1,5 +1,10 @@
 import React from 'react';
+import Welcome from '../../components/navbar/navbar';
 
 export default function Home() {
-  return <div>Teste Home</div>;
+  return (
+    <div>
+      const element = <Welcome />;
+    </div>
+  );
 }
