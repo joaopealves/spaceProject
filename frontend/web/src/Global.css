@@ -16,6 +16,22 @@ body {
   height: 100vh;
 }
 
+.start {
+  text-decoration: none;
+  color: white;
+  font: 700 2.2rem 'JetBrains Mono';
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.start:hover {
+  filter: brightness(90%);
+}
+
+.container {
+  margin-top: 50px;
+}
+
 @media (min-width: 700px) {
   :root {
     font-size: 62.5%;
