@@ -24,7 +24,7 @@
 
 .buttonText {
   color: white;
-  font: 700 14px 'JetBrains Mono Extra Bold';
+  font: 700 14px 'JetBrains Mono';
 }
 
 #homeButton {
@@ -52,17 +52,19 @@
 }
 
 .getStartedContainer button:focus {
-  border-radius: 35px;
+  outline: thin dotted;
+  outline: 0px auto -webkit-focus-ring-color;
+  outline-offset: 0px;
 }
 .getStartedContainer p {
-  font: 700 28px 'JetBrains Mono Extra Bold';
+  font: 700 28px 'JetBrains Mono';
   color: white;
   cursor: pointer;
   text-align: center;
 }
 
 .getStartedContainer button {
-  font: 700 28px 'JetBrains Mono Extra Bold';
+  font: 700 28px 'JetBrains Mono';
   color: white;
   width: 297px;
   height: 81px;
@@ -71,7 +73,7 @@
   background-color: #e65be800;
   border: 4px solid white;
   margin-top: 30px;
-  font: 700 16px 'JetBrains Mono Extra Bold';
+  font: 700 16px 'JetBrains Mono';
 }
 
 @media (max-width: 700px) {
